@@ -54,7 +54,7 @@ public class CombatLogger implements ICombatLogger {
             combatRunnable.get(uuid).cancel();
             combatRunnable.remove(uuid);
             combatTimer.remove(uuid);
-            p.sendMessage(ChatUtils.format("&a[OITC] &7You are no longer in combat."));
+            p.sendMessage(ChatUtils.format("&a[OITC] &7Je bent niet langer in gevecht."));
         }
     }
 
